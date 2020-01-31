@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="panel content_panel">{{ ime }}
+        <a class="button" style="float:right;background-color:darkred;color:white;" href="/">Natrag</a>
+</div>
+
+{% if rows %}
+<table class="account_table">
+        <td>Konto</td>
+        <td>Opis</td>
+        <td>Iznos</td>
+<tbody>
+    {% for row in rows %}
+      <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td align="right">{{ row[2] }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endblock %}      

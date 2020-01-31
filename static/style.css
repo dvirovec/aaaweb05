@@ -1,0 +1,63 @@
+
+.page {
+   background-image:url(https://images.pexels.com/photos/33707/flowers-meadow-wood-forest.jpg?auto=compress&cs=tinysrgb&h=750&w=1260);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.panel {    
+    padding: .7em;
+    font-family:Verdana;
+}
+
+.title_panel {       
+    font-size: 2em;
+    color: darkcyan;
+    background: rgb(194, 221, 236);            
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+}
+
+.account_table {
+    margin: 1em;
+    font-size: .8em;
+    color: navy;
+    background: rgb(194, 221, 236);
+    border: 1px solid darkblue;
+    padding: .7em;
+    font-family:Verdana;
+} 
+
+.content_panel {    
+    background: beige;      
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius : 10px;
+    height: auto;
+}
+
+.error_panel {    
+    background: beige;
+    color: red;      
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius : 10px;
+}
+
+.text_link {
+    text-decoration: none !important;
+    display: inline-block;
+} 
+
+label {
+    font-size: 12px;
+}
+
+.button {
+    background-color: lightskyblue;    
+    padding: 15px 32px;
+    margin:.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 10px;
+}

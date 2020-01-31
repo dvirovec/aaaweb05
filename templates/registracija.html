@@ -1,0 +1,29 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="panel content_panel"> 
+  <form method="POST" action="/spremi_registraciju">
+<table>
+    <tr>
+        <td><label for="ime_prezime">Ime i prezime</label></td>
+        <td><input name="ime_prezime" id="ime_prezime" required></td>
+    </tr>
+    <tr>
+        <td><label for="username">Korisničko ime</label></td>
+        <td><input name="username" id="username" required></td>
+    </tr>
+    <tr>
+        <td><label for="password">Lozinka</label></td>
+        <td><input type="password" name="password" id="password" required></td>
+    </tr>
+    <tr>
+        <td><label for="password_check">Provjera lozinke</label></td>
+            <td><input type="password" name="password_check" id="password_check" required></td>
+        </tr>
+    <tr>
+        <td></td><td><input type="submit" value="Registriraj"></td>
+    </tr>
+</table>  
+</form>
+  </div>
+{% endblock %}
